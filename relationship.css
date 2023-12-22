@@ -1,0 +1,131 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+    background-color:	rgb(10,10,10);
+  }
+/*Centering The Page*/                                                
+   .center{
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    padding: 0 20px;
+    text-align: center;
+  }
+/*Locate and Size of Relationship Information*/
+  .center .title{
+    font-size: 60px;
+    margin-left: -100px;
+  }
+/*Txt-Information*/
+  .txt{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  }
+/*Text-Relationship*/
+  .text{
+    color: ghostwhite;
+    font-family: "Times New Roman", Times, serif;
+  }
+  /*Mother*/
+  .h1{
+    position: fixed;
+    top: 180px;
+    left:-35px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  /*Mother Text*/
+  .s1{
+    position: fixed;
+    top: 180px;
+    left: 190px;
+    color: rgb(251, 148, 203);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  /*Father*/
+  .h2{
+    position: fixed;
+    top: 280px;
+    left:-35px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  /*Father Text*/
+  .s2{
+    position: fixed;
+    top: 280px;
+    left: 190px;
+    color: rgb(251, 148, 203);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  /*Brother*/
+  .h3{
+    position: fixed;
+    top: 380px;
+    left:-35px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  /*Brother Text*/
+  .s3{
+    position: fixed;
+    top: 380px;
+    left: 190px;
+    color: rgb(251, 148, 203);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  /*Sister*/
+  .h4{
+    position: fixed;
+    top: 480px;
+    left:-35px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  /*Sister Text*/
+  .s4{
+    position: fixed;
+    top: 480px;
+    left: 190px;
+    color: rgb(251, 148, 203);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+/*Direct to Portfolio Page*/
+  .goback button{
+    border: 4px solid white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: fixed;
+    top: 600px;
+    width: 290px;
+    left: 240px;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, rgba(251, 0, 255, 0.487),rgba(234, 30, 30, 0.997));
+    border-radius: 25px;
+    padding: 10px 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.6s ease;
+    color: white;
+    background-color:black;
+    }
+    .goback button:hover{
+    background: white;
+    color: black;
+    opacity: 1;
+    }
+    .goback button:active{
+    opacity: 0.8;
+    }
+  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="hobbies.css">
+    <title>Hobbies</title>
+  <!--Style for image in the Hobbies Page-->
+    <style>
+        .img{
+          background-image: url('hobpic.jpg');
+          top: 90vh;
+          left: 170px;
+          width: 70vw;
+          height: 75vh;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+        }
+        .img::before{
+          content: '';
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          background: rgba(12, 12, 11, 0.5);
+        }
+        </style>
+</head>
+<body>
+    <div class="img"></div>
+    <div class="center">
+        <div class="title">
+<!--Informations About My Hobbies-->
+           <u><span class="text">Hobbies</span> <span class="txt">Information</span></u></div>
+            <p class="h1">Outdoor: </p>
+            <p class="s1">-Swimming</p>
+            <p class="s2">-Jogging</p>
+            <p class="s3">-Hiking</p>
+            <p class="s4">-Traveling</p>
+            <p class="s5">-Shopping</p>
+
+            <p class="h2">Indoor: </p>
+            <p class="S1">-Reading Books</p>
+            <p class="S2">-Play Computer Games</p>
+            <p class="S3">-Cooking</p>
+            <p class="S4">-Read manwa & manhuas</p>
+            <p class="S5">-Sleeping</p>
+<!--Button that Direct you to Portfolio Page-->
+<div class="goback">
+  <button type="button" onclick="location.href='Portfolio.html'">Go Back to Menu Page</button>
+</div>
+</body>
+</html>

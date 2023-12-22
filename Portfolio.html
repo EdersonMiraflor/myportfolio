@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>My Personal Profile</title>
+
+<!--Style for image in the Portfolio Page-->
+    <style>
+        .img{
+          position: absolute;
+          width: 98vw;
+          height: 160vh;
+        }
+        .imgs{
+          position: absolute;
+          top: 50px;
+          left: 100px;
+          border: 2px solid black;
+          border-radius: 200px;
+          width: 22vw;
+          height: 40vh;
+        }
+        </style> 
+</head>
+<body>
+ <!--Script-->
+ <script>
+      let myWindow;
+      function openWin() {
+        myWindow = window.open("https://drive.google.com/file/d/1pYoXU3kE_OLnI33EwU45dJl0z4CJ_Kbk/view?usp=share_link", "_blank", "width=500, height=500");
+      }
+      function closeWin() {
+        window.alert("Closing the Video...");
+        myWindow.close();
+      }
+  </script>
+
+<!--Image Use in the Portfolio Page-->
+<img src="MainPage(1).jpg" alt="" class = "img"/><img src="Me.jpg" alt="" class = "imgs"/>
+    <div class="center">
+    <div class="title">
+        <span class="text">My</span> <span class="txt">Portfolio</span></div>
+<!--Button1 -->
+    <div class="b1">
+          <button type="button" onclick="location.href='personal.html'">Personal Information</button>
+    </div>
+<!--Button2 -->
+    <div class="b2">
+      <button type="button" onclick="location.href='hobbies.html'">Personal Hobbies</button>
+    </div>
+<!--Button3 -->
+    <div class="b3">
+      <button type="button" onclick="location.href='education.html'">Personal Education</button>
+    </div>
+<!--Button4 -->
+    <div class="b4">
+      <button type="button" onclick="location.href='relationship.html'">Personal Relationship</button>
+    </div>
+<!--My Git Hub Link-->
+    <div class="spt">
+
+      <button class = "j1" onclick="openWin()">My Video Creating this Portfolio</button>
+      <button class = "j2" onclick="closeWin()">Close Video</button>
+    </div>
+
+<!--Images in the Buttons-->
+  <div class="personal">
+    <img src="personal.jpg" alt="personal img">
+  </div>
+  <div class="hobbies">
+    <img src="hobbies.jpg" alt="hobbies img">
+  </div>
+  <div class="education">
+    <img src="education.jpg" alt="education img">
+  </div>
+  <div class="relationship">
+    <img src="relationship.jpg" alt="relationship img">
+  </div>
+</body>
+</html>

@@ -1,0 +1,191 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+    background-color: black;
+  }
+
+/*Centering the Page*/                                                
+  .center{
+    position: relative;
+    top: 250px;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0px 0px;
+    text-align: center;
+  }
+/*Locate and Size of Personal Information*/
+  .center .title{
+    font-size: 85px;
+    color: white;
+  }
+/*Txt-Information*/
+.txt{
+  position: fixed;
+  top: -450px;
+  left:530px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+/*Text-Personal*/
+.text{
+  position: fixed;
+  top: -450px;
+  left:200px;
+  color: ghostwhite;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*Name*/
+.h1{
+  position: fixed;
+  top: -100px;
+  left:300px;
+  color: ghostwhite;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Name Text*/
+.s1{
+  position: fixed;
+  top: -100px;
+  left: 900px;
+  color: cyan;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Birthday*/
+.h2{
+  position: fixed;
+  top: 5px;
+  left:300px;
+  color: ghostwhite;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Birthday Text*/
+.s2{
+  position: fixed;
+  top: 5px;
+  left: 900px;
+  color: cyan;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Age*/
+.h3{
+  position: fixed;
+  top: 100px;
+  left:300px;
+  color: ghostwhite;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Age Text*/
+.s3{
+  position: fixed;
+  top: 100px;
+  left: 900px;
+  color: cyan;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Address*/
+.h4{
+  position: fixed;
+  top: 200px;
+  left:300px;
+  color: ghostwhite;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Address Text*/
+.s4{
+  position: fixed;
+  top: 200px;
+  left: 900px;
+  color: cyan;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Zodiac Sign*/
+.h5{
+  position: fixed;
+  top: 300px;
+  left:300px;
+  color: ghostwhite;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Zodiac Sign Text*/
+.s5{
+  position: fixed;
+  top: 300px;
+  left: 900px;
+  color: cyan;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Chinese Zodiac Sign*/
+.h6{
+  position: fixed;
+  top: 400px;
+  left:300px;
+  color: ghostwhite;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Chinese Zodiac Sign Text*/
+.s6{
+  position: fixed;
+  top: 400px;
+  left: 900px;
+  color: cyan;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Contact Number*/
+.h7{
+  position: fixed;
+  top: 500px;
+  left:300px;
+  color: ghostwhite;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Contact Number Text*/
+.s7{
+  position: fixed;
+  top: 500px;
+  left: 900px;
+  color: cyan;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+/*Direct to Portfolio Page*/
+.goback button{
+  border: 4px solid white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  position: relative;
+  top: 650px;
+  left: 600px;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom right, rgba(39, 219, 225, 0.822),rgb(3, 117, 205),rgba(16, 61, 207, 0.756));
+  border-radius: 25px;
+  padding: 10px 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.6s ease;
+  color: white;
+  background-color:black;
+  }
+  .goback button:hover{
+  background: white;
+  color: black;
+  opacity: 1;
+  }
+  .goback button:active{
+  opacity: 0.8;
+  }
